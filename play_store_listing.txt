@@ -1,0 +1,80 @@
+=== PLAY STORE LISTING — BudgetBuddy ===
+
+APP NAME (max 50 chars):
+BudgetBuddy - Home Expense Tracker
+
+SHORT DESCRIPTION (max 80 chars):
+Track home expenses, set budgets & auto-import UPI payments from SMS
+
+FULL DESCRIPTION (max 4000 chars):
+BudgetBuddy is a complete home expense and budget management app designed for Indian households. Track every rupee, stay within budget, and automatically import your UPI payments.
+
+KEY FEATURES:
+
+📊 Smart Expense Tracking
+• Add expenses manually in seconds
+• 16 default categories: Food, Groceries, Transport, Utilities, Healthcare, Shopping, Entertainment and more
+• Support for Cash, Card, UPI, Bank Transfer, Wallet payments
+• Add notes and mark expenses as recurring
+
+💰 Monthly Budget Management
+• Set spending limits per category
+• Visual progress bars show budget usage
+• Get alerts when approaching limits
+• Track overall monthly budget health
+
+📱 Auto-Import UPI Expenses from SMS
+• Automatically detects UPI payment SMS from Google Pay, PhonePe, Paytm, BHIM
+• Supports all major Indian banks: HDFC, SBI, ICICI, Axis, Kotak, PNB, Canara and more
+• Smart category suggestion based on merchant name
+• Filter imports by UPI provider and month
+• Full transaction details: merchant name, UPI ID, bank account, reference number
+
+📈 Reports & Analytics
+• Pie chart showing spending by category
+• Bar chart showing daily spending trend
+• Category-wise breakdown with percentages
+• Export expenses to CSV for Excel/Google Sheets
+
+🔒 Privacy First
+• All data stored locally on your device
+• SMS is read only on your device — never sent to any server
+• No account required, no cloud, no ads
+
+WHAT'S NEW IN VERSION 1.0:
+• Initial release with full expense tracking
+• UPI SMS auto-import from all major providers
+• Monthly budget management
+• Analytics and charts
+
+CATEGORY: Finance
+CONTENT RATING: Everyone
+TAGS: expense tracker, budget app, UPI, personal finance, money manager, India
+
+=== DATA SAFETY FORM ANSWERS ===
+
+Does your app collect or share any of the required user data types?
+YES
+
+What data is collected?
+- Financial info: expense amounts and categories (stored locally, not shared)
+- SMS messages: read to detect UPI payments (processed on device, not stored or shared)
+
+Is data encrypted in transit? N/A (no data leaves the device)
+Is data encrypted at rest? Yes (Android SQLite encryption)
+Can users request data deletion? Yes (uninstall app removes all data)
+
+=== SMS PERMISSIONS DECLARATION ===
+
+Why does your app need READ_SMS?
+BudgetBuddy uses READ_SMS permission to automatically detect UPI payment notifications
+from Google Pay, PhonePe, Paytm, BHIM, and major Indian banks. This helps users
+import their spending without manual entry.
+
+Is SMS data processed on-device or sent to servers?
+SMS content is processed entirely on the user's device. No SMS data is transmitted
+to any server or third party.
+
+Is this feature core to the app or optional?
+The SMS import feature is optional. Users can use all other features without
+granting SMS permission.
